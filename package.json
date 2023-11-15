@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=dev nodemon src/index.js",
+    "start": "NODE_ENV=prod nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (http://www.opentech-consult.com)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ip": "^1.1.8",
+    "mysql": "^2.18.1",
+    "pino": "^8.16.1",
+    "pino-pretty": "^10.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opentech-consult/nodejs-api.git"
+  }
+}
