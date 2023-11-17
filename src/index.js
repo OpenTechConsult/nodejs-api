@@ -32,9 +32,6 @@ app.get("/", (req, res) => {
   res.send(new Response(HttpStatus.OK.code, HttpStatus.OK.status, 'Patient API, v1.0.0 - All Systems Go'));
 });
 
-// log all the environment variables
-console.log(process.env);
-
 // start the server and listen on port PORT defaults to 3000
 app.listen(PORT, () => {
   logger.info(`Server running on: ${ip.address()}:${PORT}`);
